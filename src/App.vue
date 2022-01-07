@@ -3,5 +3,5 @@
 </script>
 
 <template>
-  <base-button>Testando</base-button>
+  <base-button primary>Testando</base-button>
 </template>
