@@ -6,9 +6,9 @@ import vue from '@vitejs/plugin-vue';
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/components/index.js'),
+      entry: path.resolve(__dirname, 'src/components/index.ts'),
       name: 'BaseComponents',
-      fileName: (format) => `my-lib.${format}.js`,
+      fileName: (format) => `base-components.${format}.js`,
     },
     rollupOptions: {
       external: ['vue'],
