@@ -13,9 +13,7 @@
     }
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "build": "vue-tsc --noEmit && vite build"
   },
   "dependencies": {
     "path": "^0.12.7",
